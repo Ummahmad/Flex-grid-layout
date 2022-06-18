@@ -54,22 +54,20 @@ header {
     color: white;
     font-family: "Lexend Deca", sans-serif;
   }
-  .svg {
-    margin: 1rem 1rem;
-  }
+
   
 div#Container{
    display: flex;
     padding: 20px;
 }
 div.sedan{
-    background-color: hsl(31, 77%, 52%);
+    background-color: hsl(30, 77%, 52%);
 }
 .suvs{
     background-color: hsl(184, 100%, 22%);
 }
 .luxury{
-    background-color: hsl(179, 100%, 13%);
+    background-color: hsl(186, 95%, 8%);
 }
 .sedan, .suvs, .luxury{
     padding: 40px 50px;
@@ -87,8 +85,8 @@ p{
 }
 p, button{
     font-family: Lexend Deca;    
-    font-size: 20px;  
-    font-weight: 600;  
+    font-size: 15px;  
+    font-weight: 400;  
 }
 button{   
     padding: 15px 25px;
@@ -115,7 +113,7 @@ img{
 a{
     text-decoration: none;
 }
-@media(max-width:1px){
+@media(max-width:365px){
     *{
         margin: 0;
     }
